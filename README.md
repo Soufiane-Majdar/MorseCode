@@ -2,6 +2,11 @@
 
 The Morse Code Translator is a web application that allows you to translate text to Morse code or Morse code to text. It provides a simple interface where you can enter your text or Morse code, and it will generate the corresponding translation.
 
+## Demo
+
+https://soufiane-majdar.github.io/MorseCode/
+
+
 ## Features
 
 - Translate text to Morse code and Morse code to text.
