@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Morse Code Translator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <style>
+      #output {
+        width: 100%;
+        height: 100px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-family: monospace;
+        font-size: 16px;
+      }
+
+      .navbar-brand {
+        font-weight: bold;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+      }
+
+      footer a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Morse Code Translator</a>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="mb-4">Translate :</h2>
+          <div class="card mb-3">
+            <div class="card-body">
+              <textarea
+                id="input"
+                class="form-control"
+                rows="4"
+                placeholder="Enter text or Morse code..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-outline-dark" onclick="translate()">
+              Translate
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-4">Translation Result</h2>
+          <div class="card">
+            <div class="card-body">
+              <div id="output"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+    <div class="container my-5">
+      <h1 class="mb-4 text-bg-dark"><u>Morse Code Table</u></h2>
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/International_Morse_Code.svg/1200px-International_Morse_Code.svg.png"
+            alt="Morse Code Table"
+            class="img-fluid"
+
+            width="50%"
+            height="auto"
+        />
+    </div>
+    </p>
+
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <div class="container">
+        &copy; 2023 Morse Code Translator | Created by
+        <a href="https://github.com/Soufiane-Majdar" target="_blank"
+          >Soufiane Majdar</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
