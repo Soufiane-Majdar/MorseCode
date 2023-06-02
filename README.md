@@ -45,7 +45,3 @@ The Morse Code Translator is built using the following technologies:
 ## Credits
 
 This Morse Code Translator is created by [Soufiane Majdar](https://github.com/Soufiane-Majdar).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
